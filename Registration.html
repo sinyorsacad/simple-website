@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrationt</title>
+    <style>
+    h2{
+        text-align: center;
+        font-size: 35px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        color: black;  
+        margin-top: 0px ;
+    }
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        padding-bottom: 10px;
+        color: black;
+    }
+    .navbar ul {
+        list-style-type: none;
+        background-color: hsl(0, 0%, 25%);
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+    }
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+        text-align: center;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-size: 20px;
+    }
+    .navbar a:hover {
+        background-color: hsl(0, 0%, 2%);
+    }
+    .navbar li {
+        float: left;
+    }
+    form{
+        border-style: solid;
+        border-width: 5px;
+        border-color: gray;
+        border-radius: 25px;
+        padding: 15px;
+        margin-top: 20px;
+        margin-right: 120px;
+        margin-left:200px ;
+    }
+    .input1{
+        margin-inline-start: 45px;
+        padding-inline-end: 55px;
+    }
+    #p1{
+        font-family: "times new roman", "Arial Narrow", Arial, sans-serif;
+        text-align: justify;
+    }
+    .intro{
+      margin-right: 100%;
+    }
+    </style>
+</head>
+<body>
+    <h1>Registration</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Registration.html">Registration</a></li>
+        <li><a href="Rooms.html">Rooms</a></li>
+        <li><a href="About.html">About</a></li>
+      </ul>
+    </nav>
+    <br>
+    <h2 class="intro">Introduction</h2>
+    <p id="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus fugiat minima omnis sapiente non autem, impedit sint delectus soluta optio necessitatibus quidem fugit sunt vitae perferendis fuga rerum natus nostrum inventore id tempora eveniet. Dolorem nisi magnam animi sequi odio quasi nihil architecto perspiciatis obcaecati, labore dolorum, illo eum facere ut. Dignissimos deserunt quis illum asperiores quo et, nam placeat aspernatur ea exercitationem amet quia, modi, tempora illo. Dicta, neque nostrum! Consectetur doloribus excepturi maiores illum fugiat blanditiis, cumque impedit quas error repellat adipisci nisi eveniet expedita totam animi cum ipsam fugit tempore aliquid recusandae sed cupiditate explicabo quasi? In pariatur consequuntur corporis dolorem, distinctio voluptatum amet explicabo saepe at sequi itaque eligendi cumque expedita atque! Vero, quidem facilis minus vel officia exercitationem consequuntur cumque assumenda numquam distinctio quam soluta labore architecto neque error beatae saepe asperiores qui quisquam laborum eum quia praesentium! Cupiditate excepturi modi illum consequatur ipsum similique?</p>
+    <h2><u>Register Here</u></h2>
+    <form class="form" action="form1">
+        <dev>
+            <label for="fname">first name:</label>
+            <input class="input1" type="text" id="fname" name="fname" placeholder="Enter first name">
+        </dev>
+        <br> </br>
+        <dev>
+            <label for="lname">Last name:</label>
+            <input class="input1" type="text" id="lname" name="lname" placeholder="Enter last name">
+        </dev>
+        <br></br>
+        <dev>
+            <label for="date">Date of booking:</label>
+            <input style="margin-inline-start: 7px; padding-inline-end: 108px;" type="date" id="date" name="date">
+        </dev>
+        <br></br>
+        <dev>
+            <label for="date">Date of arrival:</label>
+            <input style="margin-inline-start: 18px; padding-inline-end: 108px;" type="date" id="date" name="date">
+        </dev>
+        <br></br>
+        <dev>
+            <label for="Quantity">Rooms:</label>
+            <input style="padding-left: 100px; margin-inline-start: 65px; padding-inline-end: 62px;" type="number" id="Quantity" name="Quantity" min="1" max="10" value="1">
+        </dev>
+        <br></br>
+        <dev>
+            <label for="payment">Room type:</label>
+            <select style="margin-inline-start: 39px; padding-inline-end: 132px;" id="payment" name="payment">
+                <option value="">For single</option>
+                <option value="">For married</option>
+                <option value="">For VIP</option>
+            </select>
+        </dev>
+        <br></br>
+        <dev>
+            <input type="reset" id="reset" name="reset">
+        </dev>
+        <dev>
+            <input style="margin-left: 20px;" type="submit" id="" name="submit">
+        </dev>
+        
+
+    </form>
+</body>
+</html>
